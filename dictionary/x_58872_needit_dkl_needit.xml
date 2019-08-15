@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="DKL NeedIT" max_length="40" name="x_58872_needit_dkl_needit" sizeclass="3" type="collection">
+    <element audit="true" extends="task" label="DKL NeedIT" max_length="40" name="x_58872_needit_dkl_needit" sizeclass="5" type="collection">
         <element choice="3" default="None" label="New dkl" max_length="40" name="new_dkl" type="integer">
             <choice>
                 <element inactive_on_update="false" label="1-critical"/>
@@ -11,7 +11,7 @@
         <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_when_needed" type="glide_date_time"/>
         <element label="New dkl 3" max_length="40" name="u_integer_dkl_3" type="integer"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for_dkl" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" default="LE" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="your_choice" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resource" sequence="0" value="HR"/>
                 <element inactive="true" inactive_on_update="true" label="Your Department Choise" sequence="0" value="your_choise"/>
@@ -20,16 +20,16 @@
                 <element inactive_on_update="false" label="Your Department Choice" sequence="3" value="your_choice"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="LA1" label="What needed" mandatory="true" max_length="40" name="u_what_needed_dkl" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="your_choice 1" label="What needed" mandatory="true" max_length="40" name="u_what_needed_dkl" type="string">
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
-                <element inactive_on_update="false" label="Human Resource 1" sequence="0" value="HR 1"/>
+                <element inactive_on_update="false" label="Human Resource 1" sequence="0" value="HR1"/>
                 <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
                 <element inactive_on_update="false" label="Human Resource 2" sequence="1" value="HR2"/>
                 <element inactive_on_update="false" label="Facilities 1" sequence="2" value="FA1"/>
                 <element inactive_on_update="false" label="Facilities 2" sequence="3" value="FA2"/>
-                <element inactive_on_update="false" label="Legal 1" sequence="4" value="LA1"/>
-                <element inactive_on_update="false" label="Legal 2" sequence="5" value="LA2"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="4" value="LE1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="5" value="LE2"/>
                 <element inactive_on_update="false" label="Your Department Choice 1" sequence="6" value="your_choice 1"/>
                 <element inactive_on_update="false" label="Your Department Choice 2" sequence="7" value="your_choice 2"/>
             </choice>
