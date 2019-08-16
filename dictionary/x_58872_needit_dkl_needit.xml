@@ -6,6 +6,7 @@
                 <element inactive_on_update="false" label="2-high"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_dkl_ndi_other" type="string"/>
         <element label="DKL test2" max_length="40" name="u_dkl_test2" type="integer"/>
         <element label="New Due Date" max_length="40" name="u_due_date_2" type="due_date"/>
         <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_when_needed" type="glide_date_time"/>
@@ -32,6 +33,7 @@
                 <element inactive_on_update="false" label="Legal 2" sequence="5" value="LE2"/>
                 <element inactive_on_update="false" label="Your Department Choice 1" sequence="6" value="your_choice 1"/>
                 <element inactive_on_update="false" label="Your Department Choice 2" sequence="7" value="your_choice 2"/>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
             </choice>
         </element>
     </element>
