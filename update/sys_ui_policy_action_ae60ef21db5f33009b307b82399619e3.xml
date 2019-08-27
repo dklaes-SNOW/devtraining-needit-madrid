@@ -17,7 +17,7 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-08-16 12:23:47</sys_updated_on>
         <table>x_58872_needit_dkl_needit</table>
-        <ui_policy display_value="DKL NeedIT Show or hide field other">4d9fd721db5f33009b307b823996194e</ui_policy>
+        <ui_policy display_value="DKL_NeedIT_Show_or_hide_field_other">4d9fd721db5f33009b307b823996194e</ui_policy>
         <visible>true</visible>
     </sys_ui_policy_action>
 </record_update>

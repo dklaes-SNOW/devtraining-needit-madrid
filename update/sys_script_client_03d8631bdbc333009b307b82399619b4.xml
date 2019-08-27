@@ -8,7 +8,7 @@
         <global>true</global>
         <isolate_script>true</isolate_script>
         <messages/>
-        <name>DKL NeedIT CH Request Type Options</name>
+        <name>DKL_NeedIT_CH_Request _TypeOptions</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
 	if (isLoading || newValue === '') {
@@ -62,15 +62,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>03d8631bdbc333009b307b82399619b4</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>DKL NeedIT CH Request Type Options</sys_name>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>DKL_NeedIT_CH_Request _TypeOptions</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_03d8631bdbc333009b307b82399619b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-09 14:36:46</sys_updated_on>
+        <sys_updated_on>2019-08-21 09:12:41</sys_updated_on>
         <table>x_58872_needit_dkl_needit</table>
         <type>onChange</type>
         <ui_type>10</ui_type>
