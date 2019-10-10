@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="DKL_NeedIT" max_length="40" name="x_58872_needit_dkl_needit" sizeclass="10" type="collection">
+    <element audit="true" extends="task" label="DKL_NeedIT" max_length="40" name="x_58872_needit_dkl_needit" sizeclass="14" type="collection">
         <element choice="3" default="None" label="New dkl" max_length="40" name="new_dkl" type="integer">
             <choice>
                 <element inactive_on_update="false" label="1-critical"/>
@@ -16,6 +16,7 @@
         <element attributes="edge_encryption_enabled=true" choice="1" default="your_choice" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resource" sequence="0" value="HR"/>
+                <element inactive_on_update="false" label="Human Resources" sequence="0" value="Human Resources"/>
                 <element inactive="true" inactive_on_update="true" label="Your Department Choise" sequence="0" value="your_choise"/>
                 <element inactive_on_update="false" label="Facilities" sequence="1" value="FA"/>
                 <element inactive_on_update="false" label="Legal" sequence="2" value="LE"/>
@@ -26,6 +27,7 @@
             <choice>
                 <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="0" value="Choice 2"/>
                 <element inactive_on_update="false" label="Human Resource 1" sequence="0" value="HR1"/>
+                <element inactive_on_update="false" label="Human Resources 2" sequence="0" value="Human Resources 2"/>
                 <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="1" value="Choice 3"/>
                 <element inactive_on_update="false" label="Human Resource 2" sequence="1" value="HR2"/>
                 <element inactive_on_update="false" label="Facilities 1" sequence="2" value="FA1"/>

@@ -30,29 +30,50 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 
 // rightnow stores the current time
-	var rightnow = new GlideDateTime();
+	//var rightnow = new GlideDateTime(); *** alte logic
 	// Create a GlideDateTime object for the When needed date
-	var whenNeeded = new GlideDateTime(current.u_glide_when_needed);
+	//var whenNeeded = new GlideDateTime(current.u_glide_when_needed); *** alte logic
 	// If the When needed date is before rightnow, do not write the record to the database
 	// Output an error message to the screen
 	//g_form.setValue('short_description',rightnow);
 	//gs.info("the value of rightnow is"+ rightnow);
 	//gs.info("the value of whenn needed is "+ whenNeeded);
-	if(whenNeeded.before(rightnow))
-	{
+//***** auskommentiert
+	//	if(whenNeeded.before(rightnow))
+//	{
 		
-		gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database.");
+//		gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the //database.");
+//		current.setAbortAction(true);
+//	}
+//**** ende auskommentiert
+//**************************NEUE Logic************************************+
+// Instantiate the NeedItUtils class.  Call the isDatePast method and pass 
+// the u_when_needed value.
+	var niutils = new DKL_NeedITUtils();
+	var isPast = niutils.isDatePast(current.u_glide_when_needed);
+	var isToday = niutils.isDateToday(current.u_glide_when_needed);
+	
+	// If the isDatePast method returns true, the date is in the past.
+	if(isPast == true){
+		gs.addErrorMessage("When needed date cannot be in the past.  Your request has not been saved to the database. Best regards");
 		current.setAbortAction(true);
 	}
-
-})(current, previous);]]></script>
+		
+	// if the isDateToday method returns true the When needed date is today 
+	if(isToday == true){
+		gs.addErrorMessage("You cannot submit NeedIt requests for today.");
+		current.setAbortAction(true);
+	}
+	
+})
+(current, previous);]]></script>
         <sys_class_name>sys_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-08-21 06:30:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c77e3f83db1333009b307b823996195a</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>DKL_NeedIT_When needed field date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -60,7 +81,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_c77e3f83db1333009b307b823996195a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-08-21 09:06:53</sys_updated_on>
+        <sys_updated_on>2019-08-27 14:22:49</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
