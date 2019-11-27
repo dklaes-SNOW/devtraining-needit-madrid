@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="DELETE">
+        <caller_access/>
+        <description>This event is fired for each overdue NeedIT Task Record</description>
+        <event_name>x_58872_needit.DKL_overdueNeedITTASK</event_name>
+        <fired_by>Scheduled Script Execution- Find Overdue NeedIT Task</fired_by>
+        <queue/>
+        <suffix>DKL_overdueNeedITTASK</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-29 10:34:04</sys_created_on>
+        <sys_id>ffbc88a1dbb400109b307b82399619e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.DKL_overdueNeedITTASK</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sysevent_register_ffbc88a1dbb400109b307b82399619e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-29 10:34:04</sys_updated_on>
+        <table>x_58872_needit_dkl_needit_task</table>
+    </sysevent_register>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>d3ee3780db3873403050ac44d49619e9</instance_id>
+        <instance_name>dev79900</instance_name>
+        <name>sysevent_register_ffbc88a1dbb400109b307b82399619e7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register"><sysevent_register action="INSERT_OR_UPDATE"><caller_access/><description>This event is fired for each overdue NeedIT Task Record</description><event_name>x_58872_needit.DKL_overdueNeedITTASK</event_name><fired_by>Scheduled Script Execution- Find Overdue NeedIT Task</fired_by><queue/><suffix>DKL_overdueNeedITTASK</suffix><sys_class_name>sysevent_register</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2019-10-29 10:34:04</sys_created_on><sys_id>ffbc88a1dbb400109b307b82399619e7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit.DKL_overdueNeedITTASK</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sysevent_register_ffbc88a1dbb400109b307b82399619e7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2019-10-29 10:34:04</sys_updated_on><table>x_58872_needit_dkl_needit_task</table></sysevent_register></record_update>]]></payload>
+        <payload_hash>225441317</payload_hash>
+        <record_name>x_58872_needit.DKL_overdueNeedITTASK</record_name>
+        <reverted_from/>
+        <source>37736f5bdb9040109b307b82399619a6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-29 10:34:04</sys_created_on>
+        <sys_id>503dc429dbf400109b307b82399619f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16e17146b360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-29 10:34:04</sys_updated_on>
+        <type>Event Registration</type>
+        <update_guid>583dc42988f4001021c9d0a2809750f7</update_guid>
+        <update_guid_history>583dc42988f4001021c9d0a2809750f7:225441317</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-10-29 13:59:09</sys_created_on>
+        <sys_db_object display_value="" name="sysevent_register">sysevent_register</sys_db_object>
+        <sys_id>34e29e1091c343be8344318c8506b364</sys_id>
+        <sys_metadata>ffbc88a1dbb400109b307b82399619e7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit.DKL_overdueNeedITTASK</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="DKL_NeedIt Task">83bab48edba400109b307b82399619e0</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sysevent_register_ffbc88a1dbb400109b307b82399619e7</sys_update_name>
+        <sys_update_version display_value="sysevent_register_ffbc88a1dbb400109b307b82399619e7">503dc429dbf400109b307b82399619f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-10-29 13:59:09</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
