@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_metadata_link">
+    <sys_metadata_link action="INSERT_OR_UPDATE">
+        <directory>update</directory>
+        <documentkey>da961ee2db5a40109b307b823996195a</documentkey>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_decision_question">
+    <sys_decision_question action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>5d87a9a6db9640109b307b8239961949</answer>
+        <condition table="var__m_sys_decision_input_acb8a52adb9640109b307b82399619bc">u_request_type=facilities^u_what_needed=facilities1^EQ<item display_value="Facilities" endquery="false" field="u_request_type" goto="false" newquery="false" operator="=" or="false" value="facilities"/>
+            <item display_value="Facilities 1" endquery="false" field="u_what_needed" goto="false" newquery="false" operator="=" or="false" value="facilities1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <decision_table display_value="DKL_Assignee Category Decision">acb8a52adb9640109b307b82399619bc</decision_table>
+        <default_answer>false</default_answer>
+        <input_table>var__m_sys_decision_input_acb8a52adb9640109b307b82399619bc</input_table>
+        <label>Facilities 1</label>
+        <order>400</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 12:44:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>da961ee2db5a40109b307b823996195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 12:44:02</sys_updated_on>
+    </sys_decision_question>
+</record_update>
+]]></payload>
+        <sys_class_name>sys_metadata_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-01-15 12:44:02</sys_created_on>
+        <sys_id>e0f69a66db5a40109b307b823996194b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_metadata_link_e0f69a66db5a40109b307b823996194b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-01-15 12:44:02</sys_updated_on>
+        <tablename>sys_decision_question</tablename>
+    </sys_metadata_link>
+</record_update>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"ends":["cbbd7c1fdba000109b307b82399619d3"],"activities":{},"subflows":[],"stages":{}}</activity_stages>
+        <activity_stages>{"activities":{},"ends":["cbbd7c1fdba000109b307b82399619d3"],"stages":{},"subflows":[]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -33,12 +33,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-10-22 14:19:50</sys_created_on>
         <sys_id>03bdfc53dba000109b307b823996194c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-10-22 14:20:54</sys_updated_on>
+        <sys_updated_on>2020-01-15 14:44:32</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="DKL_NeedIt Approval">d06cef5bdbd040109b307b8239961986</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="DKL_Assignee Category" max_length="40" name="x_58872_needit_dkl_assignee_category" type="collection">
+        <element label="DKL_Assignee" max_length="32" name="dkl_assignee" reference="sys_user" type="reference"/>
+        <element display="true" label="DKL_Category name" max_length="250" name="dkl_category_name" type="string"/>
+        <element label="DKL TSKTYP" max_length="250" name="dkl_tsktyp" type="string"/>
+        <index name="index">
+            <element name="dkl_assignee"/>
+        </index>
+    </element>
+</database>
