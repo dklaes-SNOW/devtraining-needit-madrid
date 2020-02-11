@@ -35,7 +35,8 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-family: verdana, geneva; font-size: 8pt;">Dear ${assigned_to.first_name},</span></p>
+        <message_html><![CDATA[<p><span style="font-family: verdana, geneva; font-size: 8pt;"><img style="align: baseline;" title="DKL for testing" src="Capgemini.jpgx" alt="DKL for testing" width="106" height="25" align="baseline" border="" hspace="" vspace="" /></span></p>
+<p><span style="font-family: verdana, geneva; font-size: 8pt;">Dear ${assigned_to.first_name},</span></p>
 <p><span style="font-family: verdana, geneva; font-size: 8pt;">An overdue NeedIT Task is assigned to you:</span></p>
 <p><span style="font-family: verdana, geneva; font-size: 8pt;">Number: ${number} with&nbsp;Priority: ${priority}</span></p>
 <p><span style="font-family: verdana, geneva; font-size: 8pt;">Short description: ${short_description}</span></p>
@@ -43,7 +44,8 @@
 <p><span style="font-family: verdana, geneva; font-size: 8pt;">${mail_script:DKL_CountOverdueNeedItTasksAssignedTo}</span></p>
 <p><span style="font-family: verdana, geneva; font-size: 8pt;">Click here to view the NeedIT Task record: ${URI_REF}</span></p>
 <p>&nbsp;</p>
-<p>${mailto:dkl_mailto.closeneedittask}</p>]]></message_html>
+<p>${mailto:dkl_mailto.closeneedittask}</p>
+<p><img title="meins" src="DKL-Logo.pngx" alt="meins" width="74" height="64" align="baseline" border="" hspace="" vspace="" /></p>]]></message_html>
         <message_list/>
         <message_text/>
         <name>DKL_Overdue Needit Task</name>
@@ -53,7 +55,7 @@
         <recipient_fields>assigned_to,assignment_group</recipient_fields>
         <recipient_groups/>
         <recipient_users>46d44a23a9fe19810012d100cca80666,dagmar.klaes@web.de,6816f79cc0a8016401c5a33be04be441</recipient_users>
-        <reply_to/>
+        <reply_to>dev79900@service-now.com</reply_to>
         <send_self>true</send_self>
         <sms_alternate/>
         <style/>
@@ -65,7 +67,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>aa992f83dbd100109b307b823996195c</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name>DKL_Overdue Needit Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -73,7 +75,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sysevent_email_action_aa992f83dbd100109b307b823996195c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-12-18 09:38:12</sys_updated_on>
+        <sys_updated_on>2020-01-29 09:03:00</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
